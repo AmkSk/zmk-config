@@ -15,7 +15,6 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_ROW";
             #binding-cells = <2>;
-            hold-trigger-key-positions = <31 32 33 34 28 27 26 25>;
             tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
