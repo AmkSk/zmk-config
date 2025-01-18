@@ -17,6 +17,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
         };
 
         home_row_k: home_row_k {
@@ -25,6 +27,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
         };
 
         home_row_l: home_row_l {
@@ -33,6 +37,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
         };
 
         home_row_f: home_row_f {
@@ -41,6 +47,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
         };
 
         home_row_d: home_row_d {
@@ -49,6 +57,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
         };
 
         home_row_s: home_row_s {
@@ -57,6 +67,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
         };
 
         activate_shift_layer: activate_shift_layer {
@@ -65,6 +77,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             bindings = <&to>, <&kp>;
+
+            flavor = "tap-preferred";
         };
     };
 
@@ -80,11 +94,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC                             &kp N1  &kp N2               &kp N3                  &kp N4                  &kp N5                         &kp N6  &kp N7                   &kp N8                   &kp N9               &kp N0    &kp GRAVE
-&kp TAB                             &kp Q   &kp W                &kp E                   &kp R                   &kp T                          &kp Y   &kp U                    &kp I                    &kp O                &kp P     &kp MINUS
-&kp LCTRL                           &kp A   &home_row_s LCTRL S  &home_row_d LEFT_GUI D  &home_row_f LEFT_ALT F  &kp G                          &kp H   &home_row_j RIGHT_ALT J  &home_row_k RIGHT_GUI K  &home_row_l RCTRL L  &kp SEMI  &kp SQT
-&activate_shift_layer 3 LEFT_SHIFT  &kp Z   &kp X                &kp C                   &kp V                   &kp B   &kp LBKT     &kp RBKT  &kp N   &kp M                    &kp COMMA                &kp DOT              &kp FSLH  &kp RSHFT
-                                                                 &kp LALT                &kp LGUI                &mo 1   &kp SPACE    &kp RET   &mo 2   &kp BSPC                 &kp RGUI
+&kp ESC         &kp N1  &kp N2               &kp N3                  &kp N4                  &kp N5                         &kp N6  &kp N7                   &kp N8                   &kp N9               &kp N0    &kp GRAVE
+&kp TAB         &kp Q   &kp W                &kp E                   &kp R                   &kp T                          &kp Y   &kp U                    &kp I                    &kp O                &kp P     &kp MINUS
+&kp LCTRL       &kp A   &home_row_s LCTRL S  &home_row_d LEFT_GUI D  &home_row_f LEFT_ALT F  &kp G                          &kp H   &home_row_j RIGHT_ALT J  &home_row_k RIGHT_GUI K  &home_row_l RCTRL L  &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X                &kp C                   &kp V                   &kp B   &kp LBKT     &kp RBKT  &kp N   &kp M                    &kp COMMA                &kp DOT              &kp FSLH  &kp RSHFT
+                                             &kp LALT                &kp LGUI                &mo 1   &kp SPACE    &kp RET   &mo 2   &kp BSPC                 &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
